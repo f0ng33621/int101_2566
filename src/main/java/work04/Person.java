@@ -15,8 +15,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "id=" + id +
-                '}';
+        return "Person ("+id+")";
+//        return "Person{" +
+//                "id=" + id +
+//                '}';
     }
 }
